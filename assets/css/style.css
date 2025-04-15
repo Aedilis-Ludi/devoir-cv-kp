@@ -1,0 +1,23 @@
+/* POLICES - Fonts importées et intégrées */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+  font-family: "Raleway"; /* Police principale pour le texte */
+  src: url('../fonts/Raleway-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway"; /* Variante italique */
+  src: url('../fonts/Raleway-Italic.woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway"; /* Variante en gras */
+  src: url('../fonts/Raleway-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
