@@ -118,3 +118,77 @@ header h2 {
     color: #ffffff;
     text-decoration: none; /* Supprime les soulignements */
 }
+
+
+/* MAIN - Structure principale avec aside et contenu */
+main {
+    display: flex;
+    gap: 2rem;
+}
+  
+/* ASIDE - Colonne gauche */
+aside {
+    width: 30%;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-size: 0.95rem;
+    background-color: #e3e3e3; /* Fond gris clair */
+}
+  
+aside h3 {
+    color: #17abb3;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(51, 51, 51, 0.1); /* Ligne décorative */
+    padding-bottom: 0.3rem;
+}
+  
+aside ul {
+    list-style: none;
+    padding: 0.7rem 0 0 0;
+}
+  
+.skills-list li,
+.languages li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+  
+.languages li span {
+    font-weight: normal;
+}
+  
+.rating {
+    display: flex;
+    gap: 2px;
+    color: #17abb3;
+    font-size: 1rem;
+}
+  
+.traits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-top: 1rem;
+}
+  
+.traits li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+  
+.traits li::before {
+    content: "■";
+    color: #17abb3;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    line-height: 1;
+}
